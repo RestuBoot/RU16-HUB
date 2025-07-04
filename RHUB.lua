@@ -174,4 +174,4 @@ goBtn.MouseButton1Click:Connect(function()
     if p and p.Character and p.Character:FindFirstChild("HumanoidRootPart") then
         LP.Character:MoveTo(p.Character.HumanoidRootPart.Position + Vector3.new(0,3,0))
     end
-end)end)
+end)
